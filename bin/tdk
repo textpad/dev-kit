@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require("../")(process.cwd(), process.argv.slice(2));
+require("../").start(process.cwd(), process.argv.slice(2));
