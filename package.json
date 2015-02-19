@@ -31,7 +31,8 @@
     "uglify-js": "2.4.16",
     "download": "4.0.0",
     "download-status": "2.1.1",
-    "nomnom": "1.8.1"
+    "nomnom": "1.8.1",
+    "debug": "2.1.1"
   },
   
   "main": "index.js",

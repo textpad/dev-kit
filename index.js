@@ -4,17 +4,17 @@ var utils = require("./lib/utils");
 
 function tdk ( cwd, argv ) {
   
-  function task ( ) {
-    this.task.apply(this, arguments);
+  function define ( ) {
+    this.define.apply(this, arguments);
   }
   
-  EventEmitter.call(task);
+  EventEmitter.call(define);
   
-  utils.merge(task, app);
+  utils.merge(define, app);
   
-  task.init(cwd, argv);
+  define.init(cwd, argv);
   
-  return task;
+  return define;
   
 }
 
