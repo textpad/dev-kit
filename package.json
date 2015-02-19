@@ -35,6 +35,6 @@
   
   "main": "index.js",
   "bin": {
-    "nime": "bin/tdk"
+    "tdk": "bin/tdk"
   }
 }
