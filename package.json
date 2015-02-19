@@ -1,0 +1,40 @@
+{
+  "name": "textpad-devkit",
+  "version": "0.1.0",
+  "preferGlobal": true,
+  "author": {
+    "name": "Futago-za Ryuu",
+    "email": "futagoza.ryuu@gmail.com",
+    "url": "http://futagoza.github.io/"
+  },
+  "homepage": "http://textpad.github.io/tdk",
+  "license": "The MIT License",
+  "description": "textpad development tools",
+  "keywords": [
+    "tdk", "textpad", "editor", "development", "tools", "bundeler", "build", "js", "package", "release", "publish"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/textpad/tdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textpad/tdk/issues"
+  },
+  "dependencies": {
+    "fs-extra": "0.16.3",
+    "walker": "1.0.6",
+    "chokidar": "1.0.0-rc3",
+    "glob": "4.4.0",
+    "uglify-js": "2.4.16",
+    "download": "4.0.0",
+    "download-status": "2.1.1"
+  },
+  
+  "main": "index.js",
+  "bin": {
+    "nime": "bin/tdk"
+  }
+}
